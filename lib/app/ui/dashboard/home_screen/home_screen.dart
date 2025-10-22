@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: onSeeAll,
             child: Text(
               StringConstants.SEE_ALL,
-              style: TextStylesConstants.textStyleBoldWhite_12,
+              style: TextStylesConstants.textWhiteBold(12),
             ),
           ),
         ],

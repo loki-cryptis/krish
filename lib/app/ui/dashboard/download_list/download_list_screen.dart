@@ -52,7 +52,7 @@ class _DownloadListScreenState extends State<DownloadListScreen> {
           ) : SizedBox(),
           title: Text(
             isEditMode ? StringConstants.EDIT : StringConstants.FAVORITE_LIST,
-            style: TextStylesConstants.textStyleBoldWhite_18,
+            style: TextStylesConstants.textWhiteBold(18),
           ),
           centerTitle: true,
           actions: [

@@ -100,7 +100,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
         borderSide: BorderSide(color: AppColors.black,),
       ),
       hintText: hint,
-      hintStyle: TextStylesConstants.textStyleBoldHint_15,
+      hintStyle: TextStylesConstants.textBlackBold(15),
       filled: true,
       fillColor: AppColors.black,
     );
@@ -125,7 +125,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
         borderSide: BorderSide(color: AppColors.black,),
       ),
       hintText: hint,
-      hintStyle: TextStylesConstants.textStyleBoldHint_15,
+      hintStyle: TextStylesConstants.textBlackBold(15),
       filled: true,
       fillColor: AppColors.black,
       suffixIcon: GestureDetector(

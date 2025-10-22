@@ -31,7 +31,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           backgroundColor: AppColors.transparent,
           title: Text(
             StringConstants.PROFILE,
-            style: TextStylesConstants.textStyleBoldWhite_24,
+            style: TextStylesConstants.textWhiteBold(24),
           ),
           centerTitle: true,
           

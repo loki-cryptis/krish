@@ -20,7 +20,7 @@ class _SportsScreenState extends State<SportsScreen> {
         backgroundColor: AppColors.transparent,
         body: Center(
           child: Container(
-            child: Text('Sports section coming soon',style: TextStylesConstants.textStyleBoldWhite_18,),
+            child: Text('Sports section coming soon',style: TextStylesConstants.textWhiteBold(18),),
           ),
         ),
       ),

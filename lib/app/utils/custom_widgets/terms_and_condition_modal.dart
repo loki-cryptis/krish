@@ -19,7 +19,7 @@ class TermsAndConditionsPopup extends StatelessWidget {
          StringConstants.TERMS_AND_CONDITIONS,
         style: TextStyle(
           fontWeight: FontWeight.bold,
-          color: AppColors.colorApp,
+          color: AppColors.black,
         ),
       ),
       content: SingleChildScrollView(
@@ -65,7 +65,7 @@ class TermsAndConditionsPopup extends StatelessWidget {
           },
           child: Text(
             'Close',
-            style: TextStyle(color: AppColors.colorApp),
+            style: TextStyle(color: AppColors.black),
           ),
         ),
         // TextButton(

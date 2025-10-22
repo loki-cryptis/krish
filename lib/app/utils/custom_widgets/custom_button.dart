@@ -71,7 +71,7 @@ class CustomDisableButton extends StatelessWidget {
           ),
           child: Center(
             child:
-                Text(label, style: TextStylesConstants.textStyleBoldWhite_13),
+                Text(label, style: TextStylesConstants.textWhiteBold(13)),
           ),
         ),
       ),

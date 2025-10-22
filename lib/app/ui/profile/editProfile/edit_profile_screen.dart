@@ -41,7 +41,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
           ),
           title: Text(
             StringConstants.EDIT_PROFILE,
-            style: TextStylesConstants.textStyleBoldWhite_24,
+            style: TextStylesConstants.textWhiteBold(24),
           ),
           centerTitle: true,
         ),

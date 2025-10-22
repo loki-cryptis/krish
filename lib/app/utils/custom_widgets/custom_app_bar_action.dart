@@ -26,7 +26,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
     return AppBar(
       elevation: 2,
       backgroundColor: color,
-      title: Center(child: Text(title, style: TextStylesConstants.textStyleBoldWhite_20, textAlign: TextAlign.center,)),
+      title: Center(child: Text(title, style: TextStylesConstants.textWhiteBold(20), textAlign: TextAlign.center,)),
       leading: IconButton(icon: const Icon(Icons.arrow_back_ios, size: 22.0, color: AppColors.white,), onPressed: onBackPressed,),
       actions: actions != null && actions!.isNotEmpty
           ? actions
@@ -58,7 +58,7 @@ class CustomAppBarWithAction extends StatelessWidget implements PreferredSizeWid
     return AppBar(
       elevation: 2,
       backgroundColor: color,
-      title: Center(child: Text(title, style: TextStylesConstants.textStyleBoldWhite_24, textAlign: TextAlign.center,)),
+      title: Center(child: Text(title, style: TextStylesConstants.textWhiteBold(24), textAlign: TextAlign.center,)),
       // leading: IconButton(icon: const Icon(Icons.arrow_back_ios, size: 22.0, color: MindMapColors.colorBlack100,), onPressed: widget.onBackPressed,),
       actions: [
         Container(

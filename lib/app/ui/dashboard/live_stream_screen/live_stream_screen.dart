@@ -19,7 +19,7 @@ class _LiveStreamScreenState extends State<LiveStreamScreen> {
         backgroundColor: AppColors.transparent,
         body: Center(
           child: Container(
-            child: Text('Live Stream section coming soon',style: TextStylesConstants.textStyleBoldWhite_18,),
+            child: Text('Live Stream section coming soon',style: TextStylesConstants.textWhiteBold(18),),
           ),
         ),
       ),
